@@ -6,5 +6,8 @@ public class Main {
         Character mage = new Character("Bob", "Wizard", 10, 10, 10, 10);
         warrior.status();
         mage.status();
+
+        warrior.takeDamage(5);
+        warrior.status();
     }
 }

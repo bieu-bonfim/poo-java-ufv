@@ -23,5 +23,9 @@ public class Character {
         System.out.println("drinking potion");
         this.life += heal;
     }
+
+    public void takeDamage(int damage){
+        this.life -= damage;
+    }
 }
 
